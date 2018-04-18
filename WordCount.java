@@ -41,6 +41,7 @@ public class WordCount {
 	    
         conf.setMapperClass(Map.class);
         conf.setReducerClass(Reduce.class);
+	conf.setCombinerClass(Combiner class);
 	    
         conf.setInputFormat(TextInputFormat.class);
         conf.setOutputFormat(TextOutputFormat.class);
